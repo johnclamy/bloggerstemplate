@@ -59,12 +59,9 @@
 
     /* Font sizes */
 
-    --base-font-size: 16px;
-    --extra-small-font-size: 12px;
-    --small-font-size: 14px;
-    --large-font-size: 18px;
-    --heading-font-size: 32px;
-    --subheading-font-size: 24px;
+    --base-font-size: 14px;
+    --font-size: 1rem;
+
 
 
     /* Font weights */
@@ -74,4 +71,21 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+
+
+    /* Line height */
+
+    --base-line-height: 1.75;
+
+
+    /* Layouts */
+
+    --margin: 1em;
+    --padding: 1em;
+
+
+    /* Durations */
+    --transition-duration-fast: 150ms;
+    --transition-duration-medium: 300ms;
+    --transition-duration-slow: 500ms;
 }
