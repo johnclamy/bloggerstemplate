@@ -1,0 +1,77 @@
+@import url('reset.css');
+
+
+:root {
+    /* Colour palette */
+
+    --black: #000000;
+    --dark-gray: #333333;
+    --gray: #777777;
+    --light-gray: #bbbbbb;
+    --off-white: #f0f0f0;
+    --white: #ffffff;
+
+    --info-color: #3498db;
+    --success-color: #2ecc71;
+    --warning-color: #f1c40f;
+    --error-color: #e74c3c;
+
+    --primary-color: #22223B;
+    --secondary-color: #4A4E69;
+    --tertiary-color: #9A8C98;
+    --accent-color: #C9ADA7;
+    --light-color: #F2E9E4;
+
+
+    /* Backgrounds */
+
+    --bg-primary: var(--white);
+    --bg-secondary: var(--off-white);
+    --bg-tertiary: var(--tertiary-color);
+    --bg-accent: var(--accent-color);
+    --bg-inverse: var(--primary-color);
+
+
+    /* Text colour */
+
+    --text-primary: var(--dark-gray);
+    --text-secondary: var(--secondary-color);
+    --text-light: var(--gray)
+    --text-inverse: var(--white);
+    --text-accent: var(--accent-color);
+    --text-heading: var(--primary-color);
+    --text-subheading: var(--secondary-color);
+    --text-link: var(--secondary-color);
+    --text-link-hover: var(--primary-color);
+
+
+    /* Border colours */
+
+    --border: var(--light-gray);
+    --border-accent: var(--accent-color);
+    --border-bg: var(--off-white);
+
+
+    /* Fonts */
+    --text-font-family: "Montserrat", sans-serif;
+    --heading-font-family: "Josefin Sans", sans-serif;
+
+
+    /* Font sizes */
+
+    --base-font-size: 16px;
+    --extra-small-font-size: 12px;
+    --small-font-size: 14px;
+    --large-font-size: 18px;
+    --heading-font-size: 32px;
+    --subheading-font-size: 24px;
+
+
+    /* Font weights */
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+}
