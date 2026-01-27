@@ -54,8 +54,9 @@
 
 
     /* Fonts */
-    --text-font-family: "Montserrat", sans-serif;
-    --heading-font-family: "Josefin Sans", sans-serif;
+    --text-font-family: 'Montserrat', sans-serif;
+    --fixed-font-family: 'Courier New', Courier, monospace;
+    --heading-font-family: 'Josefin Sans', sans-serif;
 
 
     /* Font sizes */
