@@ -80,7 +80,7 @@
     --margin: 1em;
     --padding: 1em;
 
-    background: linear-gradient(135deg, var(--light-color) 0%, var(--accent-color) 100%) no-repeat center center fixed;
+    background: linear-gradient(135deg, var(--light-color) 55%, var(--accent-color) 100%) no-repeat center center fixed;
 
 
     /* Durations */
