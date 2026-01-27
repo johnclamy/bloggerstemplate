@@ -1,1 +1,11 @@
-@import url('base/reset.css');
+@import url('base/typography.css');
+/* @import url('layouts/navbar.css'); */
+
+
+.container {
+    max-width: 88em;
+    margin: 0 auto;
+    padding: calc(var(--padding) * 2.2);
+}
+
+
