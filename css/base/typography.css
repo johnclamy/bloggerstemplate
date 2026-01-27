@@ -3,7 +3,6 @@
 
 
 body, input, textarea, select, button {
-    background-color: var(--bg-primary);
     font-family: var(--text-font-family);
     font-size: var(--base-font-size);
     line-height: var(--base-line-height);
