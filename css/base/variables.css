@@ -41,8 +41,9 @@
     --text-accent: var(--accent-color);
     --text-heading: var(--primary-color);
     --text-subheading: var(--secondary-color);
-    --text-link: var(--secondary-color);
-    --text-link-hover: var(--primary-color);
+    --text-link: var(--primary-color);
+    --text-link-hover: var(--secondary-color);
+    --text-link-visited: var(--tertiary-color);
 
 
     /* Border colours */
@@ -73,12 +74,7 @@
     --font-weight-bold: 700;
 
 
-    /* Line height */
-
-    --base-line-height: 1.75;
-
-
-    /* Layouts */
+   /* Layouts */
 
     --margin: 1em;
     --padding: 1em;
