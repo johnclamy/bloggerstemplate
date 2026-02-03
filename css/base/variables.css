@@ -48,9 +48,9 @@
 
     /* Border colours */
 
-    --border: var(--light-gray);
+    --border: var(--tertiary-color);
     --border-accent: var(--accent-color);
-    --border-bg: var(--off-white);
+    --border-bg: var(--light-color);
 
 
     /* Fonts */
