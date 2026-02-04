@@ -1,5 +1,10 @@
 @import url('base/typography.css');
-/* @import url('layouts/navbar.css'); */
+@import url('layouts/navbar.css');
+@import url('widgets/input-field-group.css');
+
+body {
+    min-height: 100vh;
+}
 
 
 .container {
