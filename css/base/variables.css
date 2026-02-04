@@ -37,7 +37,7 @@
 
     /* Text colour */
 
-    --text-primary: var(--dark-gray);
+    --text-primary: var(--black);
     --text-secondary: var(--secondary-color);
     --text-light: var(--gray)
     --text-inverse: var(--white);
@@ -46,7 +46,7 @@
     --text-subheading: var(--secondary-color);
     --text-link: var(--primary-color);
     --text-link-hover: var(--secondary-color);
-    --text-link-visited: var(--tertiary-color);
+    --text-link-visited: var(--dark-gray);
 
 
     /* Border colours */
@@ -83,7 +83,7 @@
     --margin: 1em;
     --padding: 1em;
 
-    background: linear-gradient(135deg, var(--light-color) 55%, var(--accent-color) 100%) no-repeat center center fixed;
+    background: linear-gradient(135deg, var(--bg-secondary) 85%, var(--bg-accent) 30%) no-repeat center center fixed;
 
 
     /* Durations */
