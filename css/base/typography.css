@@ -9,23 +9,25 @@ body, input, textarea, select, button {
     color: var(--text-primary);
 }
 
-a, a:link {
-    text-decoration: none;
-    cursor: pointer;
-    color: var(--text-link);
-    border-bottom: 1px solid var(--text-link);
-}
+body {
+    font-size: calc(var(--font-size) * 1.08);
 
-
-a:visited {
-    color: var(--text-link-visited);
-    border-bottom: 1px solid var(--text-link-visited);
-
-}
+    & a {
+        color: var(--text-link);
+        border-bottom: 1px solid var(--text-link);
+        text-decoration: none;
+        transition: color var(--transition-duration) var(--transition-easing), border-bottom-color var(--transition-duration) var(--transition-easing);
+    
+        &:visited {
+            color: var(--text-link-visited);
+            border-bottom: 1px solid var(--text-link-visited);
+        }
         
-a:hover, a:active {
-    color: var(--text-link-hover);
-    border-bottom: 1px solid var(--text-link-hover);
+        &:hover, &:active {
+            color: var(--text-link-hover);
+            border-bottom: 1px solid var(--text-link-hover);
+        }
+    }
 }
 
 strong, b, em, i {
